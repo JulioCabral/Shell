@@ -11,7 +11,7 @@ int main(int argc, char **argv){
 	char *inserido, **matrizDeComandos;
     	int i, pid, statusExecv, statusPid;
     	while (1){
-		inserido = readline("shell>> ");
+		inserido = readline("ShellVPower>> ");
         	matrizDeComandos = fraseParaPalavras(inserido);
 
 		const char **argumentos = (const char **) malloc((contaPalavras(inserido) + 2) * sizeof(char *));
